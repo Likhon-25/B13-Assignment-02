@@ -240,7 +240,7 @@ hr {
 
 /* ? Featured Section Style Start */
 
-.featured {
+.featured-challange {
     max-width: 1600px;
     background-color: #1A0B2E;
     padding: 120px 200px;
@@ -259,18 +259,26 @@ hr {
 
 .video-card-container .card-card {
     max-width: 380px;
+    background-color: #250D44;
+    border-radius: 25px;
+
 }
 
 .card-card iframe {
     max-width: 380px;
     height: 214px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
+
 
 .card-card .card-content {
     background-color: #250D44;
     max-width: 380px;
     padding: 20px;
     text-align: left;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 .card-content h4 {
@@ -285,9 +293,74 @@ hr {
     color: #ffff;
     margin-bottom: 12px;
 }
-.card-content .card-span{
+
+.card-content .card-span {
     font-size: 16px;
     color: #00FF88;
+}
+
+/* ? Challange Section Style Start */
+.challange-container {
+    max-width: 1200px;
+    margin: 120px auto 0 auto;
+    text-align: center;
+}
+
+.challange-card {
+    display: flex;
+    gap: 24px;
+    text-align: left;
+    align-items: center;
+    background-color: #270850;
+    padding: 40px;
+    border-radius: 40px;
+}
+
+.challange-content h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffff;
+    margin-bottom: 16px;
+}
+
+.challange-content p {
+    font-size: 16px;
+    color: #ffff;
+    margin-bottom: 16px;
+}
+
+.challange-section-icon {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 184px;
+    gap: 8px;
+}
+
+.challange-section-icon img {
+    width: 40px;
+    /* padding: 5px; */
+    box-sizing: border-box;
+    border: 1px solid rgba(83, 60, 114, 1);
+    border-radius: 50%;
+}
+
+/* ?Footer Section Start */
+footer{
+    background: url(../assets/footer-bg.png);
+    background-repeat: no-repeat;
+    padding: 120px;
+}
+.footer-container{
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-container h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.color-gradien{
+background-color: linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
 }
 
 
