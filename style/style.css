@@ -234,4 +234,23 @@ hr {
     }
 
     /* ? About section responsive star  */
+    .container {
+        max-width: 90%; 
+        padding: 40px 0;
+    }
+
+    .review-section {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 10px;
+        margin-top: 40px;
+    }
+
+    .review-card {
+        max-width: 100%
+    }
+
+
+
+
+
 }
