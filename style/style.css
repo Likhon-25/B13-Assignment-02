@@ -567,8 +567,112 @@ footer p {
     }
 
 
-
-
-
-
 }
+
+
+
+
+
+/* ! Medium device responsive */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    /** nav bar responsive */
+    nav {
+        padding: 16px 40px;
+    }
+
+    .nav-menu {
+        gap: 20px;
+    }
+
+    /** hero section responsive */
+    .hero {
+        padding: 80px 40px;
+        min-width: 100%;
+    }
+
+    .hero-image .img-1 {
+        max-width: 300px;
+    }
+
+    /* ? About section responsive */
+    .container {
+        max-width: 90%;
+        padding: 60px 0;
+    }
+
+    .review-section {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 20px;
+    }
+
+    /* ? Grid Section Responsive */
+    .grid {
+        padding: 80px 40px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .grid-box-1,
+    .grid-box-2,
+    .grid-box-3,
+    .grid-box-4,
+    .grid-box-5 {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    .grid-box-1 .card-image {
+        margin-top: 0;
+    }
+
+    /* ? Featured section responsive */
+    .featured-challange {
+        padding: 80px 40px;
+    }
+
+    .video-card-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .video-card-container .card-card,
+    .card-card iframe {
+        max-width: 100%;
+    }
+
+    /* ? Challenge (Host) Section Responsive */
+    .challange-card {
+        padding: 30px;
+        gap: 30px;
+    }
+
+    .challange-card img {
+        max-width: 180px;
+    }
+
+    /* ? Footer section responsive */
+    /* !Problem asa copetite section deka jai na */
+    footer {
+        padding: 80px 40px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 120px;
+    }
+
+    .footer-container h1 {
+        margin-top: 0 auto;
+        font-size: 55px;
+    }
+
+    .social-media-section {
+        max-width: 100%;
+        gap: 15px;
+    }
+}
+
+
+/* ? Large Device REsponsive */
