@@ -276,6 +276,7 @@ hr {
     max-width: 1600px;
     background-color: #1A0B2E;
     padding: 120px 200px;
+    margin: 0 auto;
 }
 
 .featured-container {
