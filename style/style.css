@@ -47,7 +47,14 @@ nav {
 }
 
 .color-gradien {
-    color: rgba(251, 9, 180, 1);
+    background-clip: text;
+    background: linear-gradient(47.64deg,
+            rgba(247, 233, 63, 1),
+            rgba(251, 9, 180, 1),
+            rgba(145, 0, 248, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 nav ul {
@@ -426,18 +433,7 @@ footer p {
 }
 
 .color-gradien {
-    display: inline-block;
-
-    .color-gradien {
-        background: linear-gradient(47.64deg,
-                rgba(247, 233, 63, 1),
-                rgba(251, 9, 180, 1),
-                rgba(145, 0, 248, 1));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
-
+    display: inline-block
 }
 
 
@@ -655,7 +651,8 @@ footer p {
     .card-card iframe {
         max-width: 100%;
     }
-/* !!!!!!!!!!!!!!!! problem */
+
+    /* !!!!!!!!!!!!!!!! problem */
     /* ? Challenge Section Responsive */
     .challange-card {
         padding: 30px;
@@ -677,11 +674,6 @@ footer p {
         margin-top: 0 auto;
         font-size: 55px;
     }
-
-    /* .social-media-section {
-        max-width: 100%;
-        gap: 15px;
-    } */
 
 
     /* ?Hero Section Style Start */
@@ -710,6 +702,21 @@ footer p {
 /* ? Large Device REsponsive */
 
 @media screen and (min-width: 992px) {
+    .hero {
+        min-width: 100%;
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 100px 100px;
+    }
+
+    .hero-image {
+        margin-bottom: 40px;
+    }
+
+    .tooltip {
+        transform: translate(180%, 80%);
+    }
+
 
     /*? nav section style */
     nav {
@@ -748,15 +755,15 @@ footer p {
         height: auto;
     }
 
-/* ? Challange Section Style Start */
+    /* ? Challange Section Style Start */
 
-.challange-card {
-    padding: 20px;
-    border-radius: 20px;
-}
+    .challange-card {
+        padding: 20px;
+        border-radius: 20px;
+    }
 
 
- /* ? Footer section responsive */
+    /* ? Footer section responsive */
     footer {
         padding: 80px 40px;
         background-position: center;
