@@ -666,7 +666,7 @@ footer p {
     }
 
     /* ? Footer section responsive */
-     footer {
+    footer {
         padding: 80px 40px;
         background-position: center;
         padding: 120px;
@@ -683,55 +683,51 @@ footer p {
     }
 
 
+    /* ?Hero Section Style Start */
+
+    .hero {
+        max-width: 1600px;
+        padding: 50px 225px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-size: contain;
+    }
 
 
+    .hero-image .img-2 {
+        transform: translate(-0%, 30%);
+        position: absolute;
+        z-index: 10;
+    }
 
 
 }
+
 
 
 /* ? Large Device REsponsive */
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
 
     /*? nav section style */
-header {
-    max-width: 1600px;
-    margin: 0 auto;
-}
+    nav {
+        padding: 16px 100px;
+    }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: #1A0B2E;
-    padding: 16px 200px;
-    align-items: center;
-}
+    .hemburger-menu {
+        display: none;
+    }
 
-.color-white {
-    color: #ffff;
-}
+    /* ? Grid section style start */
+    .grid {
+        padding: 60px 50px;
+    }
 
-.color-gradien {
-    color: rgba(251, 9, 180, 1);
-}
+    .grid-box-1 .card-image {
+        margin-top: 35px;
+    }
 
-nav ul {
-    display: flex;
-    gap: 32px;
-    list-style-type: none;
-}
-
-ul .nav-link {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 400;
-}
-
-.hemburger-menu {
-    display: none;
-}
 
 
 
