@@ -31,11 +31,9 @@
 
 .btn:hover {
     border-radius: 2.8rem;
-    background: linear-gradient(47.64deg,
-            rgb(204, 189, 21),
-            rgb(182, 4, 129),
-            rgb(98, 8, 163));
-    transition: 1000ms;
+    background: transparent;
+    border: 2px solid rgb(182, 4, 129);
+    transition: 1s;
 }
 
 /*? nav section style */
@@ -152,6 +150,7 @@ ul .nav-link {
 .hero-btn-2:hover {
     background-color: #3fee9c;
     border: 1px solid #00FF88;
+    transition: 1s;
     color: #ffff;
     font-weight: bold;
 }
@@ -566,7 +565,7 @@ footer p {
     }
 
     .video-card-container,
-     .card-card,
+    .card-card,
     .card-card iframe,
     .card-card .card-content {
         max-width: 100%;
