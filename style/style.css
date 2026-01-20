@@ -98,15 +98,15 @@ ul .nav-link {
     z-index: 10;
 }
 
-.tooltip{
+.tooltip {
     background-color: #00FF88;
     z-index: 20;
     position: absolute;
-   transform: translate(170%, 60%);
-   padding: 8px 16px;
-   font-size: 1.1rem;
-   border-radius: 45px;
-   border: none;
+    transform: translate(170%, 60%);
+    padding: 8px 16px;
+    font-size: 1.1rem;
+    border-radius: 45px;
+    border: none;
 }
 
 .hero-content h2 {
@@ -479,6 +479,10 @@ footer p {
         transform: translate(0%, 100%);
     }
 
+    .hero-image .tooltip {
+        transform: translate(140%, 40%);
+    }
+
     .hero-content p {
         padding: 0 10px;
     }
@@ -602,10 +606,6 @@ footer p {
         min-width: 100%;
     }
 
-    .hero-image .img-1 {
-        max-width: 300px;
-    }
-
     /* ? About section responsive */
     .container {
         max-width: 90%;
@@ -666,11 +666,9 @@ footer p {
     }
 
     /* ? Footer section responsive */
-    /* !Problem asa copetite section deka jai na */
-    footer {
+     footer {
         padding: 80px 40px;
-        background-repeat: no-repeat;
-        background-size: contain;
+        background-position: center;
         padding: 120px;
     }
 
@@ -683,7 +681,64 @@ footer p {
         max-width: 100%;
         gap: 15px;
     }
+
+
+
+
+
+
 }
 
 
 /* ? Large Device REsponsive */
+
+@media screen and (min-width: 992px){
+
+    /*? nav section style */
+header {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A0B2E;
+    padding: 16px 200px;
+    align-items: center;
+}
+
+.color-white {
+    color: #ffff;
+}
+
+.color-gradien {
+    color: rgba(251, 9, 180, 1);
+}
+
+nav ul {
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+}
+
+ul .nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.hemburger-menu {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+}
