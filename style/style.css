@@ -15,10 +15,10 @@
 
 /* ? Shared Style */
 .btn {
-    font-size: 16px;
+    font-size: 1rem;
     padding: 12px 16px;
     color: #ffff;
-    border-radius: 45px;
+    border-radius: 2.8rem;
     justify-self: center;
     background: linear-gradient(47.64deg,
             rgba(247, 233, 63, 1),
@@ -59,7 +59,7 @@ nav ul {
 ul .nav-link {
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -71,7 +71,7 @@ ul .nav-link {
 
 .hero {
     max-width: 100%;
-    min-width: 100vh;
+    min-width: 1600px;
     padding: 100px 525px;
     text-align: center;
     background: url(../assets/hero-bg.png);
@@ -98,20 +98,31 @@ ul .nav-link {
     z-index: 10;
 }
 
+.tooltip{
+    background-color: #00FF88;
+    z-index: 20;
+    position: absolute;
+   transform: translate(170%, 60%);
+   padding: 8px 16px;
+   font-size: 1.1rem;
+   border-radius: 45px;
+   border: none;
+}
+
 .hero-content h2 {
-    font-size: 60px;
+    font-size: 3.75rem;
     color: #ffff;
     margin-bottom: 10px;
 }
 
 .hero-content p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #ffff;
     margin-bottom: 24px;
 }
 
 .hero-btn .hero-btn-2 {
-    font-size: 16px;
+    font-size: 1rem;
     padding: 12px 16px;
     border-radius: 45px;
     justify-self: center;
@@ -141,14 +152,14 @@ ul .nav-link {
 }
 
 .about-heading h2 {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
     color: #ffff;
     margin: 0px;
 }
 
 .about-heading p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #ffff;
     margin-top: 16px;
 }
@@ -171,13 +182,13 @@ hr {
 }
 
 .review-card h2 {
-    font-size: 48px;
+    font-size: 3rem;
     color: #00FF88;
     margin-bottom: 16px;
 }
 
 .review-card p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #ffff;
 }
 
@@ -191,7 +202,7 @@ hr {
 }
 
 .heading {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bold;
     color: #ffff;
     margin-bottom: 40px;
@@ -241,13 +252,13 @@ hr {
 }
 
 .grid-card h3 {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 16px;
 }
 
 .grid-card p {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .card-image {
@@ -303,20 +314,20 @@ hr {
 }
 
 .card-content h4 {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #ffff;
     margin-bottom: 12px;
 }
 
 .card-content p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #ffff;
     margin-bottom: 12px;
 }
 
 .card-content .card-span {
-    font-size: 16px;
+    font-size: 1rem;
     color: #00FF88;
 }
 
@@ -338,14 +349,14 @@ hr {
 }
 
 .challange-content h3 {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: bold;
     color: #ffff;
     margin-bottom: 16px;
 }
 
 .challange-content p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #ffff;
     margin-bottom: 16px;
 }
@@ -385,7 +396,7 @@ footer {
 }
 
 .footer-container h1 {
-    font-size: 70px;
+    font-size: 4.3rem;
     font-weight: bold;
     margin-bottom: 32px;
 }
@@ -399,13 +410,13 @@ footer {
 }
 
 .social-media-card {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #ffff;
     margin-bottom: 32px;
 }
 
 footer p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #ffff;
 }
 
@@ -448,7 +459,7 @@ footer p {
     .hemburger-menu {
         display: block;
         color: white;
-        font-size: 24px;
+        font-size: 1.5rem;
         cursor: pointer;
     }
 
