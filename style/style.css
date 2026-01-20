@@ -25,7 +25,17 @@
             rgba(251, 9, 180, 1),
             rgba(145, 0, 248, 1));
     border: none;
+    cursor: pointer;
 
+}
+
+.btn:hover {
+    border-radius: 2.8rem;
+    background: linear-gradient(47.64deg,
+            rgb(204, 189, 21),
+            rgb(182, 4, 129),
+            rgb(98, 8, 163));
+    transition: 1000ms;
 }
 
 /*? nav section style */
@@ -136,6 +146,14 @@ ul .nav-link {
     background-color: transparent;
     border: 1px solid #00FF88;
     color: #00FF88;
+    cursor: pointer;
+}
+
+.hero-btn-2:hover {
+    background-color: #3fee9c;
+    border: 1px solid #00FF88;
+    color: #ffff;
+    font-weight: bold;
 }
 
 /* ? About section style start */
@@ -301,8 +319,13 @@ hr {
     max-width: 380px;
     background-color: #250D44;
     border-radius: 25px;
-
 }
+
+.video-card-container .card-card:hover {
+    transform: scale(1.02) rotate(5deg);
+    transition: 0.5s ease;
+}
+
 
 .card-card iframe {
     max-width: 380px;
@@ -451,6 +474,7 @@ footer p {
     .nav-menu,
     .nav-btn {
         display: none;
+        cursor: pointer;
     }
 
     .hemburger-menu {
@@ -488,6 +512,7 @@ footer p {
         display: flex;
         gap: 15px;
         align-items: center;
+        cursor: pointer;
     }
 
     /* ? About section responsive star  */
@@ -540,7 +565,8 @@ footer p {
         justify-items: center;
     }
 
-    .video-card-container .card-card,
+    .video-card-container,
+     .card-card,
     .card-card iframe,
     .card-card .card-content {
         max-width: 100%;
@@ -650,17 +676,6 @@ footer p {
     .video-card-container .card-card,
     .card-card iframe {
         max-width: 100%;
-    }
-
-    /* !!!!!!!!!!!!!!!! problem */
-    /* ? Challenge Section Responsive */
-    .challange-card {
-        padding: 30px;
-        gap: 30px;
-    }
-
-    .challange-card img {
-        max-width: 180px;
     }
 
     /* ? Footer section responsive */
